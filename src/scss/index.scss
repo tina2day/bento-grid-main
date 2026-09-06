@@ -1,0 +1,18 @@
+@import "../blocks/app/app";
+@import "../blocks/audience/audience";
+@import "../blocks/content/content";
+@import "../blocks/creation/creation";
+@import "../blocks/fonts/fonts";
+@import "../blocks/growing/growing";
+@import "../blocks/maintaining/maintaining";
+@import "../blocks/managing/managing";
+@import "../blocks/schedule/schedule";
+@import "../blocks/writing/writing";
+
+@media (min-width: 1100px) {
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

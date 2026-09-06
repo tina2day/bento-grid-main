@@ -1,0 +1,67 @@
+.maintaining {
+  background: hsl(39, 100%, 71%);
+  border-radius: 8px;
+  font-family: "DM Sans";
+  width: 100%;
+  max-height: 200px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  grid-column: 3/4;
+  grid-row: 2/4;
+}
+.maintaining__title {
+  margin-left: 12px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -1px;
+}
+@media (min-width: 1100px) {
+  .maintaining__title {
+    margin-top: 20px;
+    margin-left: 7%;
+    font-size: 31px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: -1px;
+  }
+}
+@media (min-width: 600px) and (max-width: 1100px) {
+  .maintaining__title {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 36px;
+    line-height: 28px;
+    margin-left: 15px;
+  }
+}
+.maintaining__calendar {
+  margin-left: 12px;
+  width: 60%;
+}
+@media (min-width: 1100px) {
+  .maintaining__calendar {
+    margin-left: 12px;
+    width: 86%;
+    margin: 0px auto;
+  }
+}
+@media (min-width: 600px) and (max-width: 1100px) {
+  .maintaining__calendar {
+    margin-left: 15px;
+  }
+}
+@media (min-width: 1100px) {
+  .maintaining {
+    height: 100%;
+    max-height: 100%;
+  }
+}
+@media (min-width: 600px) and (max-width: 1100px) {
+  .maintaining {
+    max-height: 300px;
+  }
+}/*# sourceMappingURL=maintaining.css.map */

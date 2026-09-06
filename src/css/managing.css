@@ -1,0 +1,50 @@
+.managing {
+  color: hsl(0, 0%, 7%);
+  width: 100%;
+  border-radius: 8px;
+  grid-column: 2/3;
+  grid-row: 2/4;
+}
+.managing__text {
+  font-family: "DM Sans";
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -1px;
+  margin-top: 0;
+  margin-left: 12px;
+}
+@media (min-width: 1100px) {
+  .managing__text {
+    font-size: 33px;
+    line-height: 28px;
+    margin-top: 15px;
+  }
+}
+@media (min-width: 600px) and (max-width: 1100px) {
+  .managing__text {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 36px;
+    line-height: 28px;
+    margin-left: 15px;
+  }
+}
+.managing__links {
+  width: 93%;
+  margin-left: 7%;
+  margin-top: 10px;
+}
+@media (min-width: 1100px) {
+  .managing__links {
+    width: 120%;
+    margin-left: 13%;
+  }
+}
+@media (min-width: 1100px) {
+  .managing {
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: visible;
+  }
+}/*# sourceMappingURL=managing.css.map */
