@@ -17,6 +17,7 @@ The goal of this project was to build a responsive bento-style layout and recrea
 ### Links
 
 - [GitHub Repository](https://github.com/tina2day/bento-grid-main)
+- [GitHub Pages](https://tina2day.github.io/bento-grid-main/)
 
 ## Built With
 
